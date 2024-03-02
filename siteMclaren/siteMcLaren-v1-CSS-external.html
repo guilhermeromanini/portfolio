@@ -1,0 +1,194 @@
+    <!DOCTYPE html>
+    <html lang="pt - BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>McLaren Brasil</title>
+        <link rel="stylesheet" href="style-CSS.css">
+
+    </head>
+
+    <body>
+
+            
+        <header>
+            <h1>McLaren F1 Brasil</h1>
+            <h2>O seu portal sobre a equipe de Woking, UK</h2>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Última notícia</a></li>
+                    <li><a href="#">Mais notícias</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                </ul>
+            </nav>
+
+
+        </header>
+        
+        <section id="imagem1">
+        <div class="figuras">
+        <figure>
+            <img src="imagens/MCL2.avif" alt="MCL38">
+            <figcaption>MCL38</figcaption>
+        </figure>
+        <figure>
+            <img src="imagens/rabeta.jpeg" traseiraMCL38>
+            <figcaption>Traseira MCL38</figcaption>
+        </figure>
+        </div>
+        </section>
+
+        <section id="ultimasnoticias">
+            <h2>Última notícia:</h2>
+            
+            <p style="color: rgb(99, 40, 18);">Entenda tudo sobre o lançamento do carro de 2024 e os segredos do novo modelo!
+                <br><br>
+                Clique <a href="https://motorsport.uol.com.br/f1/news/f1-saiba-truque-da-mclaren-para-nao-entregar-mudanca-importante-em-novo-carro/10575798/">aqui</a>
+            </p>
+        </section>
+
+        <section id="maisnoticias">
+            <h2>Mais notícias:</h2>
+            <p>McLaren lança nova pintura!
+                <br><br>
+                Clique <a href="https://motorsport.uol.com.br/f1/news/f1-saiba-truque-da-mclaren-para-nao-entregar-mudanca-importante-em-novo-carro/10575798/">aqui</a>
+            </p>
+
+        </section>
+
+        <section id="videos">
+
+        <div class="videos">
+        <h2>Vídeos:</h2>
+        <p>Como cadastrar alertas do seu McLaren</p>
+        <video controls width="1000px">
+            <source src="videos/Alertas.mp4" type="video/mp4">
+            Seu navegador não suporta o formato de vídeo!
+        </video>
+        </div>
+        </section>
+
+        
+        <hr>
+
+        <section>
+            <h2>Historico de pontuação da McLaren nos últimos 2 campeonatos de F1</h2>
+            <table border="Tabela">
+                <caption>Campeonatos e anos</caption>
+                <thead>
+                <tr>
+                    <th>Campeonato</th>
+                    <th>2024</th>
+                    <th>2023</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>Construtores</td>
+                    <td>260</td>
+                    <td>140</td>
+                </tr>
+                <tr>
+                    <td>Norris</td>
+                    <td>180</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>Piastri (2023)/Ricc (2021 e 2022)</td>
+                    <td>80</td>
+                    <td>60</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td>260</td>
+                        <td>140</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <br>
+
+        <form method="GET" action="">
+        <h2>Dê sua opinião!!</h2>
+
+        <fieldset>
+            <legend>Qual piloto você gostaria de ver na Mclaren?</legend>
+            <input type="checkbox" name="piloto" value="sonna">Hamilton<br>
+            <input type="checkbox" name="piloto" value="Kimi">Alonso<br>
+            <input type="checkbox" name="piloto" value="norris">Bortoleto
+            <button>Enviar</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Qual foi a melhor temporada da McLaren dos últimos anos?</legend>
+            <label>
+                <input type="radio" name="ano" value="2023">2023
+            </label>
+            <label>
+                <input type="radio" name="ano" value="2021">2021
+            </label>
+            <label>
+                <input type="radio" name="ano" value="2020">2020
+            </label>
+            <button>Enviar</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Qual motor a McLaren deveria usar a partir de 2026?</legend>
+            <select name="motor" >
+                <option value="Mercedes">Mercedes</option>
+                <option value="Mercedes">Honda</option>
+                <option value="Mercedes">Ferrari</option>
+                <option value="Mercedes">Audi</option>
+                <option value="Mercedes">Próprio</option>
+            </select>
+            <button>Enviar</button>
+        </fieldset>
+
+        <br>
+        <hr>
+        <br>
+
+        <section>
+            <h3>Dúvidas? Me mande uma mensagem!</h3>
+                <label>Nome </label>
+                <input type="text" name="Nome">
+                <br>
+                <label>E-mail</label>
+                <input type="email" required name="e-mail">
+                <br>
+                <label>Data da noticia</label>
+                <input type="date" name="dataIda">
+                <br>
+                <label>Data de hoje</label>
+                <input type="date" name="dataIda">
+                <br>
+                <label>Velocidade</label>
+                <input type="number" name="velocidade"><label> km/h</label>
+                <br>
+                <label>Senha</label>
+                <input type="password" name="senha">
+                <br>
+                <label>Comentário</label><br>
+                <textarea rows="3" name="comentario"></textarea>
+                <br>
+                <input type="checkbox"
+                <button>Salvar</button>
+        </form>
+
+        </section>
+
+        <br><br>
+        <hr>
+
+        <footer>
+            <p>Desenvolvido por GR Tecnologia</p>
+        </footer>
+
+    </body>
+    </html>
